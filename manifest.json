@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Stahuj.to",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://prehraj.to/*"],
+  "action": {
+    "default_title": "Get Video Link",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
